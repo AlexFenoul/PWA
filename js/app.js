@@ -3,15 +3,15 @@ window.onload = function() {
     var hideImage = document.getElementById("hideImage");
 
     showImage.onclick = function() {
-        document.getElementById("carousel").style.display = "block";
+        document.getElementById("carousel").style.display = "flex";
         showImage.style.display = "none";
-        hideImage.style.display = "block";
+        hideImage.style.display = "flex";
         return false;
     }
 
     hideImage.onclick = function() {
         document.getElementById("carousel").style.display = "none";
-        showImage.style.display = "block";
+        showImage.style.display = "flex";
         hideImage.style.display = "none";
         return false;
     }

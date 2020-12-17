@@ -13,8 +13,14 @@
 #carousel {
     margin: 20px 0px;
     display: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #hideImage {
     display: none;
+}
+
+.picture{
+    margin: 10px 10px;
 }
