@@ -33,7 +33,7 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('fetch', function(e) {
-    if (!(evt.request.url.indexOf('http') === 0)) return; 
+    if (!(e.request.url.indexOf('http') === 0)) return; 
     e.respondWith(
         caches.match(e.request).then(function(r) {
             console.log('[Service Worker] Fetching resource: '+e.request.url);
