@@ -1,6 +1,5 @@
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./serviceWorker.js');
-};
+
+
 
 window.onload = function() {
     var showImage = document.getElementById("showImage");
