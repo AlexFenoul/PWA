@@ -1,0 +1,20 @@
+#content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    margin: 10px 0px;
+}
+
+#carousel {
+    margin: 20px 0px;
+    display: none;
+}
+
+#hideImage {
+    display: none;
+}
