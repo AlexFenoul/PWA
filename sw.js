@@ -8,6 +8,7 @@ var appShellFiles = [
   '/icon/apple-icon-60x60.png',
   '/icon/apple-icon-72x72.png',
   '/icon/apple-icon-76x76.png',
+  '/icon/144.png',
   '/icon/apple-icon-114x114.png',
   '/icon/apple-icon-120x120.png',
   '/icon/apple-icon-152x152.png',
