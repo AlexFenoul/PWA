@@ -46,3 +46,9 @@ self.addEventListener('fetch', function(e) {
         })
     );
 });
+
+
+window.addEventListener('appinstalled', (evt) => {
+    // Log install to analytics
+    console.log('INSTALL: Success');
+});
